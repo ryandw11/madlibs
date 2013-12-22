@@ -42,8 +42,8 @@ if random == 2:
     print('================================')
     print ('      end')
 
-    if random == 3:
-        print ('please put in a name')
+if random == 3:
+    print ('please put in a name')
     name = input()
     print ('please put in a verb')
     verb = input()
