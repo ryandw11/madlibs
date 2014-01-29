@@ -1,11 +1,11 @@
 import random
 
 #mad libs
-#for now 3 random madlibs
+#for now 4 random madlibs
 
 print ('Welcome to mad libs!')
 print ('lets get started!')
-random = random.randint(1, 3)
+random = random.randint(1, 4)
 if random == 1:
     print ('please put in a name')
     name = input()
@@ -57,5 +57,22 @@ if random == 3:
     print ('he wanted to open a ' + noun + '.')
     print ('It was his dream!')
     print ('You look ' + adverb + ' yesterday!')
+    print('================================')
+    print ('      end')
+if random == 4:
+    print ('please put in a name')
+    name = input()
+    print ('please put in a verb')
+    verb = input()
+    print ('please enter in a noun')
+    noun = input()
+    print ('please put in a adverb')
+    adverb = input()
+    print (name + ' went on a ship to the U.S.A.')
+    print ('he' + verb + ' a game of suffle board')
+    print ('he loved to play suffle board!')
+    print ('he wanted to play the game' + noun + 'while he was there.')
+    print ('It was his dream to do that!')
+    print ('he look ' + adverb + ' that night at dinner!')
     print('================================')
     print ('      end')
